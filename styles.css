@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* General Container Styling */
+.container {
+    max-width: 1200px; /* Adjust to fit your overall layout */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the entire container content */
+}
+
+/* Dashboard Title Styling */
+h1 {
+    font-family: 'Arial', sans-serif; /* Change font family */
+    color: royalblue; /* Title color */
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Chart Container Styling */
+.chart-container {
+    border: 3px solid royalblue; /* Thicker and blue border */
+    border-radius: 10px;
+    margin: 20px auto; /* Center the chart and add margin */
+    padding: 20px; /* Add padding inside the container */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2); /* Optional shadow for better separation */
+    background-color: #f9f9f9; /* Light background color */
+    position: relative; /* Ensure positioning for donut chart adjustments */
+    width: 800px; /* Set a consistent width for all charts */
+    height: 600px; /* Set a consistent height for all charts */
+    overflow: hidden; /* Ensure contents fit within the box */
+}
+
+/* Donut Chart Container Specific Styling */
+#donutChart-container {
+    width: 800px; /* Match width of other chart containers */
+    height: 600px; /* Match height of other chart containers */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Donut Chart Styling */
+#donutChart {
+    display: block;
+    margin: 0 auto; /* Center the donut chart */
+    width: 60% !important; /* Adjust width for better fit */
+    height: auto; !important; /* Maintain aspect ratio */
+}
+
+/* Canvas Styling */
+canvas {
+    width: 100% !important; /* Ensure canvas fits within the container */
+    height: auto !important; /* Maintain aspect ratio */
+}
+
+/* Title Styling for Charts */
+.chart-container h2 {
+    font-family: 'Arial', sans-serif;
+    color: royalblue; /* Chart titles color */
+    font-size: 20px; /* Font size for titles */
+    margin-top: 0;
+}
+
+/* Description Styling */
+.chart-description {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center; /* Center align the descriptions */
+}
+
+/* Donut Chart Index Styling */
+#donutChart-container .chart-description {
+    margin-top: 20px; /* Space between chart and description */
+}

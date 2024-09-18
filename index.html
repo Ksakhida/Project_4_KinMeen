@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesion Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lesion Analysis Dashboard</h1>
+
+        <!-- Donut Chart -->
+        <div id="donutChart-container" class="chart-container">
+            <h2>Lesion Types Distribution</h2>
+            <canvas id="donutChart"></canvas>
+            <p id="donut-analysis" class="chart-description"></p>
+        </div>
+
+        <!-- Bubble Chart -->
+        <div class="chart-container">
+            <h2>Lesion Types by Age Group</h2>
+            <canvas id="bubbleChart"></canvas>
+            <p id="bubble-analysis" class="chart-description"></p>
+        </div>
+
+        <!-- Bar Chart: Lesion Type by Age Group -->
+        <div class="chart-container">
+            <h2>Lesion Types by Age Group</h2>
+            <canvas id="ageGroupChart"></canvas>
+            <p id="ageGroup-analysis" class="chart-description"></p>
+        </div>
+
+        <!-- Bar Chart: Precise Recall by Sex -->
+        <div class="chart-container">
+            <h2>Precise Recall by Sex</h2>
+            <canvas id="recallChart"></canvas>
+            <p id="recall-analysis" class="chart-description"></p>
+        </div>
+
+        <!-- Bar Chart: Lesion Type and Localization -->
+        <div class="chart-container">
+            <h2>Lesion Type and Localization</h2>
+            <canvas id="localizationChart"></canvas>
+            <p id="localization-analysis" class="chart-description"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
