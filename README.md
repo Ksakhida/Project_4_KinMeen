@@ -1,5 +1,5 @@
 
-# Skin Lesion Analysis Dashboard & Classification Report
+# Skin Lesion Analysis Dashboard, lesion mapping and Machine learning & Classification
 
 ## Overview
 This project explores the distribution of various skin lesion types across demographics (age, gender) and their localization on the body. Additionally, the project includes the implementation of machine learning techniques to classify skin lesions using both traditional and deep learning approaches.
